@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Top Win</title>
+    <script data-goatcounter="https://topwin.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>  <!-- End Google Tag Manager -->
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        body {
+            background: url('background.png') no-repeat center center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        #cta-btn {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: block;
+            z-index: 10;
+        }
+
+        #cta-btn div {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+<a href="http://w880m.info/IVCH3X7" target="_blank" id="cta-btn">
+    <div><img src="background.png" alt="" style="
+    display: block;
+    width: 100%;
+"></div>
+</a>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const offerParam = new URLSearchParams(window.location.search).get("u");
+
+        const btn = document.getElementById("cta-btn");
+        if (btn && offerParam) {
+            btn.addEventListener("click", function (e) {
+                e.preventDefault();
+                window.open("http://" + offerParam, "_blank");
+            });
+        }
+    });
+</script>
+</body>
+</html>
